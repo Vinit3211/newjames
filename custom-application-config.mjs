@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: 'cle73yb95000auo01a2jamndx',
-      url: 'https://api.europe-west1.gcp.commercetools.com',
+      url: 'https://newcustomchannel1.vercel.app/',
     },
   },
   oAuthScopes: {
