@@ -4,16 +4,16 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptions}
  */
 const config = {
-  name: 'Channels1',
-  entryPointUriPath:'Channels1',
+  name: 'channels1',
+  entryPointUriPath:'channels1',
   cloudIdentifier: 'gcp-eu',
   env: {
     development: {
       initialProjectKey: 'new_custom',
     },
     production: {
-      applicationId: 'cle73yb95000auo01a2jamndx',
-      url: 'https://newcustomchannel1.vercel.app/',
+      applicationId: 'cle86vfp000q2uo01d6waic96',
+      url: 'https://api.europe-west1.gcp.commercetools.com',
     },
   },
   oAuthScopes: {
