@@ -5,7 +5,7 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  */
 const config = {
   name: 'Channels1',
-  entryPointUriPath,
+  entryPointUriPath:'Channels1',
   cloudIdentifier: 'gcp-eu',
   env: {
     development: {
@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: 'cle73yb95000auo01a2jamndx',
-      url: 'https://your_app_hostname.com',
+      url: 'https://api.europe-west1.gcp.commercetools.com',
     },
   },
   oAuthScopes: {
